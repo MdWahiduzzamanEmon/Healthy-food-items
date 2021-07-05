@@ -6,6 +6,7 @@
 }
 html{
     font-size: 81.25%;
+    scroll-behavior: smooth;
 }
 .wrapper{
     width: 100rem;
@@ -14,12 +15,12 @@ html{
 
 /*nav-bar*/
 .bg-color-1{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.267),rgba(255, 255, 255, 0.808)) ,url("image/pawel-czerwinski-GwA9CZi7fPE-unsplash.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgb(255, 255, 255)) ,url("image/pawel-czerwinski-GwA9CZi7fPE-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .nav-bar{
-    height: 10vh;
+    height: 15vh;
 }
 .nav-bar ul{
     width: 100%;
@@ -72,7 +73,7 @@ p{
     font-size: 2rem;
     color: rgb(94, 90, 90);
     text-indent: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 1.8rem;
 }
 .button{
     text-decoration: none;
@@ -83,5 +84,24 @@ p{
     word-spacing: 5px;
     padding: 1.5rem;
     border-radius: 10px;
-    background-image: linear-gradient(to right, rgb(122, 25, 179), rgb(236, 24, 148))
+    background-image: linear-gradient(to right, rgb(122, 25, 179), rgb(236, 24, 148));
+    display: inline-block;
 }
+
+
+
+/*about section*/
+#font-clr{
+    color: rgb(155, 9, 65);
+    text-align: justify;
+}
+.divide{
+    width: 50%;
+    
+}
+.bg-img-1{
+    margin-bottom: 10rem;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.233),rgba(255, 255, 255, 0.979)),url("image/violet-bg-color.jpg");
+    background-size: cover; 
+}
+/*about section*/
