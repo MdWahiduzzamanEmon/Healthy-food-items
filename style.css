@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arvo', serif;
+}
+html{
+    font-size: 81.25%;
+}
+.wrapper{
+    width: 110rem;
+    margin: 0 auto;
+}
+
+/*nav-bar*/
+.bg-color-1{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.267),rgba(255, 255, 255, 0.808)) ,url("image/pawel-czerwinski-GwA9CZi7fPE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-bar{
+    height: 10vh;
+}
+.nav-bar ul{
+    width: 100%;
+    text-align: center;
+    
+}
+.nav-bar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1%;
+    margin: 1% 1%;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
+.nav-bar ul li a:hover{
+    color: rgb(101, 15, 199);
+}
+/*nav-bar*/
+
