@@ -15,7 +15,7 @@ html{
 
 /*nav-bar*/
 .bg-color-1{
-    background-image: linear-gradient(rgba(255, 255, 255, 0),rgb(255, 255, 255)) ,url("image/pawel-czerwinski-GwA9CZi7fPE-unsplash.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.301),rgb(255, 255, 255)) ,url("image/Purple.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -41,7 +41,8 @@ html{
     color: #000000;
 }
 .nav-bar ul li a:hover{
-    color: rgb(101, 15, 199);
+    color: rgb(199, 15, 70);
+    border-bottom: 4px solid rgb(199, 15, 70);
 }
 /*nav-bar*/
 
@@ -105,3 +106,44 @@ p{
     background-size: cover; 
 }
 /*about section*/
+
+/*Recipe section*/
+.text-area{
+    text-align: center;
+    margin-bottom: 6rem;
+    margin-top: 5rem;
+}
+.recipe-title{
+    width: 40%;
+    margin-right: 5%;
+    box-shadow: 0px 0px 10px 10px rgba(192, 192, 192, 0.582);
+    border-radius: 25px;
+    height: 72vh;
+    padding: 35px;
+}
+.recipe-title:last-child{
+    margin-right: 0px;
+}
+.recipe-title img{
+    width: 100%;
+    height: 65%;
+    display: block;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+.recipe-title h3{
+    font-size: 2rem;
+    margin-top: 10%;
+    margin-bottom: 7%;
+    
+}
+.recipe-title p{
+    text-indent:0;
+    text-align: justify;
+    font-size: 18px;
+}
+#Recipe-section{
+    margin-bottom: 5rem;
+}
+
+/*Recipe section*/
