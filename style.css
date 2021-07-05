@@ -37,10 +37,39 @@ html{
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    color: black;
+    color: #000000;
 }
 .nav-bar ul li a:hover{
     color: rgb(101, 15, 199);
 }
 /*nav-bar*/
 
+.flexible-display{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    
+}
+.half-width img{
+    width: 90%;
+    display: block;
+    margin-left: 7rem;
+}
+.color{
+    color: rgb(134, 22, 134);
+}
+h1{
+    font-size: 4rem;
+    margin: 6rem 0rem 3rem 0rem;
+}
+h2{
+    font-size: 3rem;
+    letter-spacing: .10rem;
+    margin-bottom: 4rem;
+}
+p{
+    font-size: 2rem;
+    color: rgb(94, 90, 90);
+    text-indent: 5rem;
+}
