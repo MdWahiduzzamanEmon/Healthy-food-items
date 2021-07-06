@@ -147,3 +147,49 @@ p{
 }
 
 /*Recipe section*/
+
+
+/*followers section*/
+#b-shadow{
+    box-shadow: 0px 0px 15px 10px rgba(128, 128, 128, 0.219);
+    border-radius: 15px;
+    text-align: center;
+}
+.follower{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.three-section{
+    width: 33%;
+    padding: 4rem;
+}
+.three-section p{
+    text-indent: 0px;
+    font-size: 1.1rem;
+}
+.three-section h1{
+    display:block;
+    margin: 0rem;
+}
+
+/*followers section*/
+/*footer section*/
+footer{
+    background: url("image/7.png"),linear-gradient(rgb(0, 0, 0),black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center bottom;
+    
+}
+.footer-section h1{
+    margin-bottom: 1rem;
+}
+.footer-section p{
+    text-indent: 0px;
+}
+.footer-section{
+    padding: 5rem;
+}
+
+/*footer section*/
