@@ -5,7 +5,7 @@
     font-family: 'Arvo', serif;
 }
 html{
-    font-size: 81.25%;
+    font-size: 70%;
     scroll-behavior: smooth;
 }
 .wrapper{
@@ -15,7 +15,7 @@ html{
 
 /*nav-bar*/
 .bg-color-1{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.301),rgb(255, 255, 255)) ,url("image/Purple.png");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.158),rgba(255, 255, 255, 0.849)) ,url("image/Purple.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,7 +31,7 @@ html{
     list-style-type: none;
     display: inline-block;
     padding: 1%;
-    margin: 1% 1%;
+    margin: 3% 1%;
 }
 .nav-bar ul li a{
     text-decoration: none;
@@ -88,6 +88,11 @@ p{
     background-image: linear-gradient(to right, rgb(122, 25, 179), rgb(236, 24, 148));
     display: inline-block;
 }
+.header-section{
+    background-image: url("image/Frame\ 59.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
@@ -114,21 +119,22 @@ p{
     margin-top: 5rem;
 }
 .recipe-title{
-    width: 40%;
+    width: 30%;
     margin-right: 5%;
     box-shadow: 0px 0px 10px 10px rgba(192, 192, 192, 0.582);
-    border-radius: 25px;
-    height: 72vh;
-    padding: 35px;
+    border-radius: 2rem;
+    height: 45rem;
+    padding: 2rem;
+
 }
 .recipe-title:last-child{
-    margin-right: 0px;
+    margin-right: 0rem;
 }
 .recipe-title img{
     width: 100%;
-    height: 65%;
+    height: 55%;
     display: block;
-    border-radius: 25px;
+    border-radius: 2rem;
     margin: 0 auto;
 }
 .recipe-title h3{
@@ -140,7 +146,7 @@ p{
 .recipe-title p{
     text-indent:0;
     text-align: justify;
-    font-size: 18px;
+    font-size: 1.6rem;
 }
 #Recipe-section{
     margin-bottom: 5rem;
@@ -173,6 +179,63 @@ p{
 }
 
 /*followers section*/
+
+.contact{
+    margin-top: 10rem;
+    background: url("image/7.png") no-repeat;
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.location{
+    width: 45%;
+    margin-right: 15rem;  
+}
+.location iframe{
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 10px rgba(128, 128, 128, 0.377);
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.left-contact{
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.left-contact form input{
+    display: block;
+    outline: none;
+    border: none;
+    padding: 2rem;
+    margin: 2rem;
+    width: 38rem;
+    border-radius: 1rem;
+    background-color: rgba(137, 43, 226, 0.295);
+    border-bottom: 5px solid transparent ;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.left-contact form input:hover{
+    border-bottom: 5px solid rgba(137, 43, 226, 0.815) ;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.486);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn {
+    padding: 1rem 3rem;
+    margin-left: 15rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to right, rgb(122, 25, 179), rgb(236, 24, 148));
+}
 /*footer section*/
 footer{
     background: url("image/7.png"),linear-gradient(rgb(0, 0, 0),black);
@@ -183,11 +246,14 @@ footer{
     
 }
 .footer-section h1{
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
+    border-bottom: .3rem dotted purple;
+    display: inline-block;
 }
 .footer-section p{
     text-indent: 0px;
 }
+
 .footer-section{
     padding: 5rem;
 }
